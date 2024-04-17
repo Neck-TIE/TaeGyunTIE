@@ -10,11 +10,11 @@ public class B5_9498 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 
-        String grade = getGrade(n);
+        String grade = ratingGrade(n);
         System.out.println(grade);
     }
 
-    private static String getGrade(int n) {
+    private static String ratingGrade(int n) {
         if (n >= 90 && n <= 100) {
             return "A";
         } else if (n >= 80 && n < 90) {
