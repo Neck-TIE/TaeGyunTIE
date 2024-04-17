@@ -15,7 +15,6 @@ public class B5_1330 {
         int m = Integer.parseInt(st.nextToken());
 
         String result = compare(n, m);
-
         System.out.println(result);
     }
 
