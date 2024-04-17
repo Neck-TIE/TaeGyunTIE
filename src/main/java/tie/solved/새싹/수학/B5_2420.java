@@ -11,15 +11,15 @@ public class B5_2420 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-        Long n1 = Long.parseLong(st.nextToken());
-        Long n2 = Long.parseLong(st.nextToken());
+        Long n = Long.parseLong(st.nextToken());
+        Long m = Long.parseLong(st.nextToken());
 
-        Long result = abs(n1, n2);
+        Long result = abs(n, m);
         System.out.println(result);
     }
 
-    private static Long abs(Long n1, Long n2) {
-        return Math.abs(n1 - n2);
+    private static Long abs(Long n, Long m) {
+        return Math.abs(n - m);
     }
 
 }
