@@ -8,7 +8,7 @@ public class B5_25083 {
         System.out.println(" \\. \". L_r'");
         System.out.println("   `~\\/");
         System.out.println("      |");
-        System.out.println("      |");
+        System.out.print("      |");
     }
 
 }
