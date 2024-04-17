@@ -1,4 +1,4 @@
-package tie.solved.B5;
+package tie.solved.B5.수학;
 
 import java.io.*;
 import java.util.StringTokenizer;
