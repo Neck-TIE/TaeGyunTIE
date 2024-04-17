@@ -7,16 +7,13 @@ public class B5_1001 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
 
         int result = minus(n, m);
-        bw.write(String.valueOf(result));
-        bw.flush();
-        bw.close();
+        System.out.println(result);
     }
 
     private static int minus(int n, int m) {
