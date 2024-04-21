@@ -1,4 +1,4 @@
-package tie.solved.새싹.수학;
+package tie.solved.Bronze5.수학;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,6 +12,7 @@ public class B5_14681 {
         int y = Integer.parseInt(br.readLine());
 
         int result = getQuadrant(x, y);
+        
         System.out.println(result);
     }
 
