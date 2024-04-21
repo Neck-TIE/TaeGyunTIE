@@ -19,8 +19,8 @@ public class B5_10950 {
             arr[i] = a + b;
         }
 
-        for (int n : arr) {
-            System.out.println(n);
+        for (int a : arr) {
+            System.out.println(a);
         }
     }
 
