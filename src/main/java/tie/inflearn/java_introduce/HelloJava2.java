@@ -1,4 +1,4 @@
-package tie.inflearn.java_basic;
+package tie.inflearn.java_introduce;
 
 public class HelloJava2 {
 
