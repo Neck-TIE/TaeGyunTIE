@@ -1,4 +1,4 @@
-package tie.inflearn.java_basic.주석;
+package tie.inflearn.java_introduce.주석;
 
 public class CommentJava {
 
