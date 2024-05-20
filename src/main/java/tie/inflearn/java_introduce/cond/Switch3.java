@@ -5,8 +5,8 @@ public class Switch3 {
     public static void main(String[] args) {
         // grade 1:1000, 2:3000(변경), 3:3000, 나머지:500
         int grade = 1;
-
         int coupon;
+
         switch (grade) {
             case 1:
                 coupon = 1000;
