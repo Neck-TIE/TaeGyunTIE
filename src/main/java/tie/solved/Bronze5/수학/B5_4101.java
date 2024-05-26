@@ -19,8 +19,7 @@ public class B5_4101 {
                 break;
             }
 
-            String result = num > num2 ? "Yes" : "No";
-            System.out.println(result);
+            System.out.println(num > num2 ? "Yes" : "No");
         }
     }
 
