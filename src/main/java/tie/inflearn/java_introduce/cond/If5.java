@@ -15,6 +15,7 @@ public class If5 {
             discount = discount + 1000;
             System.out.println("10세 이하 구매, 500원 할인");
         }
+
         System.out.println("총 알인 금액 : " + discount + "원");
     }
 

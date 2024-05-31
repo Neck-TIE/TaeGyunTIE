@@ -11,7 +11,6 @@ public class CondOp1 {
         } else {
             status = "미성년자";
         }
-
         System.out.println("age = " + age + ", status = " + status);
     }
 
