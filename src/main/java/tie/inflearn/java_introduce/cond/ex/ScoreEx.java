@@ -16,6 +16,7 @@ public class ScoreEx {
         } else {
             System.out.println("학점은 F입니다.");
         }
+
     }
 
 }

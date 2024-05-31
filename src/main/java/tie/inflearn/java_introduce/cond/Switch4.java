@@ -11,7 +11,7 @@ public class Switch4 {
             case 3 -> 3000;
             default -> 500;
         };
-        
+
         System.out.println("발급받은 쿠폰 : " + coupon);
     }
 

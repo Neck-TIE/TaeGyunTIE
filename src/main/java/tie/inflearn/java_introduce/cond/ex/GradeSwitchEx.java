@@ -25,6 +25,7 @@ public class GradeSwitchEx {
                 System.out.println("손님입니다.");
                 break;
         }
+
     }
 
 }

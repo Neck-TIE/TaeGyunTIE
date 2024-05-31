@@ -20,6 +20,7 @@ public class Switch2 {
                 coupon = 500;
                 break;
         }
+
         System.out.println("발급받은 쿠폰 : " + coupon);
     }
 
