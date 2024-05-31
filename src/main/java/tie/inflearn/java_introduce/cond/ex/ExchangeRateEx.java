@@ -13,7 +13,6 @@ public class ExchangeRateEx {
             int won = dollar * 1300;
             System.out.println("환전 금액은 " + won + "원 입니다.");
         }
-
     }
 
 }

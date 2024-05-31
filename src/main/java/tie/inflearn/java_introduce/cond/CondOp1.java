@@ -12,7 +12,7 @@ public class CondOp1 {
             status = "미성년자";
         }
 
-        System.out.println("age = " + age + " status = " + status);
+        System.out.println("age = " + age + ", status = " + status);
     }
 
 }

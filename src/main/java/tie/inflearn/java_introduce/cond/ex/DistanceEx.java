@@ -14,7 +14,6 @@ public class DistanceEx {
         } else {
             System.out.println("비행기로 이동합니다.");
         }
-
     }
 
 }

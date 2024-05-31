@@ -3,7 +3,7 @@ package tie.inflearn.java_introduce.operator;
 public class Operator1 {
 
     public static void main(String[] args) {
-        // 변수 초기화
+        // 변수 초기화 및 선언
         int a = 5;
         int b = 2;
 

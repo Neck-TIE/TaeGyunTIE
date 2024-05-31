@@ -6,7 +6,7 @@ public class If4 {
         int age = 15;
 
         if (age <= 7) {
-            System.out.println("미취학");
+            System.out.println("어린이");
         } else if (age <= 13) {
             System.out.println("초등학생");
         } else if (age <= 16) {

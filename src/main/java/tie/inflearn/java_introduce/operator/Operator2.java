@@ -3,7 +3,7 @@ package tie.inflearn.java_introduce.operator;
 public class Operator2 {
 
     public static void main(String[] args) {
-        // 문자열과 문자열 더하기1
+        // 문자열과 문자열 더하기
         String result = "Hello" + "World";
         System.out.println(result);
 

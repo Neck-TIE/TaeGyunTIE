@@ -15,7 +15,6 @@ public class Switch1 {
         } else {
             coupon = 500;
         }
-
         System.out.println("발급받은 쿠폰 : " + coupon);
     }
 
