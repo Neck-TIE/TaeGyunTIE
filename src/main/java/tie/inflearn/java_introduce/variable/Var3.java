@@ -7,7 +7,7 @@ public class Var3 {
         a = 10; // 변수 초기화
         System.out.println(a);
 
-        a = 50; // 변수 값 변경 10 -> 50
+        a = 50; // 변수 값 변경
         System.out.println(a);
     }
 
