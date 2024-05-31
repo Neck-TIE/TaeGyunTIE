@@ -9,6 +9,7 @@ public class ForEx2 {
             System.out.println(num);
             num += 2;
         }
+
     }
 
 }

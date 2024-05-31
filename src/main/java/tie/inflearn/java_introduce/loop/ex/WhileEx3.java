@@ -11,7 +11,6 @@ public class WhileEx3 {
             sum += i;
             i++;
         }
-
         System.out.println(sum);
     }
 

@@ -7,15 +7,15 @@ public class While2_2 {
         int i = 1;
 
         sum = sum + i;
-        System.out.println("i = " + i + " sum = " + sum);
+        System.out.println("i = " + i + ", sum = " + sum);
         i++;
 
         sum = sum + i;
-        System.out.println("i = " + i + " sum = " + sum);
+        System.out.println("i = " + i + ", sum = " + sum);
         i++;
 
         sum = sum + i;
-        System.out.println("i = " + i + " sum = " + sum);
+        System.out.println("i = " + i + ", sum = " + sum);
     }
 
 }

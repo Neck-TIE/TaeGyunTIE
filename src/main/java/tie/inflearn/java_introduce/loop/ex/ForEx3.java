@@ -9,7 +9,6 @@ public class ForEx3 {
         for (int i = 1; i <= max; i++) {
             sum += i;
         }
-
         System.out.println(sum);
     }
 

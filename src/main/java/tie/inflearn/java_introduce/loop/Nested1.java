@@ -9,7 +9,6 @@ public class Nested1 {
             for (int j = 0; j < 3; j++) {
                 System.out.println("-> 내부 for 시작 j : " + j);
             }
-
             System.out.println("외부 for 종료 i : " + i);
         }
     }
