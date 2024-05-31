@@ -20,7 +20,6 @@ public class If3 {
         if (age >= 20) {
             System.out.println("성인");
         }
-
     }
 
 }

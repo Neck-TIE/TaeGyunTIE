@@ -12,7 +12,6 @@ public class If1 {
         if (age < 18) {
             System.out.println("미성년자입니다.");
         }
-
     }
 
 }

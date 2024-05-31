@@ -13,7 +13,7 @@ public class Comp1 {
         System.out.println(a >= b);
         System.out.println(a <= b);
 
-        boolean result = a == b; // a == b: false
+        boolean result = a == b; // a == b : false
         System.out.println(result); // false
     }
 

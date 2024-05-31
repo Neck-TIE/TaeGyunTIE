@@ -10,7 +10,6 @@ public class If2 {
         } else {
             System.out.println("미성년자입니다.");
         }
-
     }
 
 }
