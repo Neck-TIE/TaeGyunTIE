@@ -9,7 +9,7 @@ public class Break3 {
             sum += i;
 
             if (sum > 10) {
-                System.out.println("합이 10보다 크면 종료 : i = " + i + " sum = " + sum);
+                System.out.println("합이 10보다 크면 종료 : i = " + i + ", sum = " + sum);
                 break;
             }
         }

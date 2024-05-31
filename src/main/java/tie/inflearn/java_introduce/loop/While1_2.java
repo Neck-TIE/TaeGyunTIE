@@ -7,7 +7,7 @@ public class While1_2 {
 
         while (count < 3) {
             count++;
-            System.out.println("현재 숫자는 " + count);
+            System.out.println("현재 숫자 : " + count);
         }
     }
 

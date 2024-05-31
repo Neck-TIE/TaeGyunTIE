@@ -10,6 +10,7 @@ public class While2_3 {
         while (i <= endNum) {
             sum = sum + i;
             System.out.println("i = " + i + " sum = " + sum);
+
             i++;
         }
     }
