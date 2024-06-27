@@ -14,6 +14,7 @@ public class MovieRateEx {
         if (rating <= 7) {
             System.out.println("'고질라'를 추천합니다.");
         }
+        
     }
 
 }

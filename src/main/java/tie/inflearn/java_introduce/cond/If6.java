@@ -16,10 +16,7 @@ public class If6 {
         } else {
             System.out.println("할인 대상이 아닙니다.");
         }
-<<<<<<< HEAD
-=======
 
->>>>>>> 115f333 (Java: 연산자)
         System.out.println("총 할인 금액 : " + discount + "원");
     }
 

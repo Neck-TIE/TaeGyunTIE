@@ -11,7 +11,6 @@ public class If5 {
             discount = discount + 1000;
             System.out.println("10000원 이상 구매, 1000원 할인");
         }
-
         if (age <= 10) {
             discount = discount + 1000;
             System.out.println("10세 이하 구매, 500원 할인");
