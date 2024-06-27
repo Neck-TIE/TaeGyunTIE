@@ -23,5 +23,4 @@ public class B5_10950 {
             System.out.println(a);
         }
     }
-
 }
