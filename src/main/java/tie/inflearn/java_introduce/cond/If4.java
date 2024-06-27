@@ -16,5 +16,6 @@ public class If4 {
         } else {
             System.out.println("성인");
         }
+
     }
 }
