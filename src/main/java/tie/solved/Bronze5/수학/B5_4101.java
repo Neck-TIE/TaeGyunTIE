@@ -12,6 +12,7 @@ public class B5_4101 {
 
         while (true) {
             StringTokenizer st = new StringTokenizer(br.readLine());
+
             int num = Integer.parseInt(st.nextToken());
             int num2 = Integer.parseInt(st.nextToken());
 
