@@ -1,4 +1,4 @@
-package tie.inflearn.java_introduce.operator;
+package com.tie.inflearn.java_introduce.operator;
 
 public class Comp1 {
 

@@ -1,4 +1,4 @@
-package tie.solved.Bronze5.배열;
+package com.tie.solved.Bronze5.배열;
 
 import java.io.BufferedReader;
 import java.io.IOException;

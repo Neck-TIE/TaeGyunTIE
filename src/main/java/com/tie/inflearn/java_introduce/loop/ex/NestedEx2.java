@@ -1,4 +1,4 @@
-package tie.inflearn.java_introduce.loop.ex;
+package com.tie.inflearn.java_introduce.loop.ex;
 
 public class NestedEx2 {
 

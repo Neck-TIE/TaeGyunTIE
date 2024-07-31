@@ -1,4 +1,4 @@
-package tie.inflearn.java_introduce.cond.ex;
+package com.tie.inflearn.java_introduce.cond.ex;
 
 public class ExchangeRateEx {
 

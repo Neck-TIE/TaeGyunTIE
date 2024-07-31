@@ -1,4 +1,4 @@
-package tie.solved.Bronze3.출력;
+package com.tie.solved.Bronze3.출력;
 
 import java.io.BufferedReader;
 import java.io.IOException;

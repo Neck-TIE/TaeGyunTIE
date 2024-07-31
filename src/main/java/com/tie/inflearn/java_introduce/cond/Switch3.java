@@ -1,4 +1,4 @@
-package tie.inflearn.java_introduce.cond;
+package com.tie.inflearn.java_introduce.cond;
 
 public class Switch3 {
 

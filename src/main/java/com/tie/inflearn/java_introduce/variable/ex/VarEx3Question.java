@@ -1,4 +1,4 @@
-package tie.inflearn.java_introduce.variable.ex;
+package com.tie.inflearn.java_introduce.variable.ex;
 
 public class VarEx3Question {
 

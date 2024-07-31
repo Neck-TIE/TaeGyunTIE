@@ -1,4 +1,4 @@
-package tie.solved.Bronze3.문자열;
+package com.tie.solved.Bronze3.문자열;
 
 import java.io.BufferedReader;
 import java.io.IOException;

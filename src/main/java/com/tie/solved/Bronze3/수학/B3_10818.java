@@ -1,4 +1,4 @@
-package tie.solved.Bronze3.수학;
+package com.tie.solved.Bronze3.수학;
 
 import java.io.BufferedReader;
 import java.io.IOException;

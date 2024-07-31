@@ -1,4 +1,4 @@
-package tie.solved.bronze1;
+package com.tie.solved.bronze1;
 
 import java.io.BufferedReader;
 import java.io.IOException;

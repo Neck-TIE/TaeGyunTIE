@@ -1,4 +1,4 @@
-package tie.solved.Bronze4.수학;
+package com.tie.solved.Bronze4.수학;
 
 import java.io.*;
 import java.util.StringTokenizer;

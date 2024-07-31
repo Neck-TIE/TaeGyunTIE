@@ -1,4 +1,4 @@
-package tie.inflearn.java_introduce.hello;
+package com.tie.inflearn.java_introduce.hello;
 
 // HelloJava 클래스 파일의 범위 시작
 public class HelloJava {

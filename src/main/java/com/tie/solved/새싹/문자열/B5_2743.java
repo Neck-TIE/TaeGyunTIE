@@ -1,4 +1,4 @@
-package tie.solved.새싹.문자열;
+package com.tie.solved.새싹.문자열;
 
 import java.io.BufferedReader;
 import java.io.IOException;

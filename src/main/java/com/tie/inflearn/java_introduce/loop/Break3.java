@@ -1,4 +1,4 @@
-package tie.inflearn.java_introduce.loop;
+package com.tie.inflearn.java_introduce.loop;
 
 public class Break3 {
 

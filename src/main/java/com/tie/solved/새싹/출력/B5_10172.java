@@ -1,4 +1,4 @@
-package tie.solved.새싹.출력;
+package com.tie.solved.새싹.출력;
 
 public class B5_10172 {
 
