@@ -4,7 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class B4_1264 {
+public class 모음의개수_1264 {
+
+    public static final char[] vowels = {'a', 'e', 'i', 'o', 'u'};
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,22 +17,25 @@ public class B4_1264 {
                 break;
             }
 
-            int answer = getNumberOfVowels(str);
+            int answer = solution(str);
 
             System.out.println(answer);
         }
     }
 
-    private static int getNumberOfVowels(String str) {
+    private static int solution(String str) {
         int answer = 0;
+        char[] chars = str.toCharArray();
+        int length = chars.length;
 
-        for (int i = 0; i < str.length(); i++) {
-            char c = str.charAt(i);
-            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
-                answer++;
+        for (int i = 0; i < length; i++) {
+            for (char vowel : vowels) {
+                if (chars[i] == vowel) {
+                    answer++;
+                }
             }
         }
-        
+
         return answer;
     }
 
