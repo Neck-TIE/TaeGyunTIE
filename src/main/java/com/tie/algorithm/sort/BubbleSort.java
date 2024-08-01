@@ -1,4 +1,4 @@
-package tie.algorithm.sort;
+package com.tie.algorithm.sort;
 
 import java.util.Arrays;
 
