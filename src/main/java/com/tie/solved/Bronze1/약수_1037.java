@@ -1,13 +1,12 @@
-package com.tie.solved.bronze1;
+package com.tie.solved.Bronze1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.OptionalInt;
 import java.util.StringTokenizer;
 
-public class B1_1037 {
+public class 약수_1037 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,7 +14,7 @@ public class B1_1037 {
         int[] arr = new int[n];
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
         }
 
@@ -23,17 +22,11 @@ public class B1_1037 {
         System.out.println(result);
     }
 
-    static int solution(int[] arr) {
-        OptionalInt minOptional = Arrays.stream(arr).min();
-        OptionalInt maxOptional = Arrays.stream(arr).max();
+    private static int solution(int[] arr) {
+        int max = Arrays.stream(arr).min().getAsInt();
+        int min = Arrays.stream(arr).max().getAsInt();
 
-        if (minOptional.isPresent()) {
-            int max = maxOptional.getAsInt();
-            int min = minOptional.getAsInt();
-            return max * min;
-        } else {
-            throw new IllegalArgumentException("Array must not be empty");
-        }
+        return max * min;
     }
 
 }
