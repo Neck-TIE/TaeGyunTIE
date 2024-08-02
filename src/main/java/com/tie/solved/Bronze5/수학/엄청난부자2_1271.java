@@ -2,7 +2,6 @@ package com.tie.solved.Bronze5.수학;
 
 import java.io.*;
 import java.math.BigInteger;
-import java.util.Arrays;
 
 public class 엄청난부자2_1271 {
 
