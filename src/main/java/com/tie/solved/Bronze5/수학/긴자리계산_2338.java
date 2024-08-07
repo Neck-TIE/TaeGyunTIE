@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.math.BigInteger;
 import java.util.Arrays;
 
-public class B5_2338 {
+public class 긴자리계산_2338 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
