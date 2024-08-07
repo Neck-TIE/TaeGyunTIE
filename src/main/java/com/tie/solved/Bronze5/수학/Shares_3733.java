@@ -5,13 +5,19 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class B5_3733 {
+public class Shares_3733 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         while (true) {
-            StringTokenizer st = new StringTokenizer(br.readLine());
+            String cur = br.readLine();
+
+            if (cur == null) {
+                break;
+            }
+
+            StringTokenizer st = new StringTokenizer(cur);
             int n = Integer.parseInt(st.nextToken());
             int s = Integer.parseInt(st.nextToken());
 
