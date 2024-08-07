@@ -3,9 +3,10 @@ package com.tie.solved.Bronze5.수학;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class B5_3003 {
+public class 체스_3003 {
 
     public static final int[] CHESS = {1, 1, 2, 2, 2, 8};
 
@@ -15,11 +16,22 @@ public class B5_3003 {
 
         int[] oldChess = new int[6];
         for (int i = 0; i < 6; i++) {
-            oldChess[i] = CHESS[i] - Integer.parseInt(st.nextToken());
+            oldChess[i] = Integer.parseInt(st.nextToken());
         }
 
-        for(int c : oldChess) {
-            System.out.print(c + " ");
-        }
+        int[] result = solution(oldChess);
+
+        System.out.println(Arrays.toString(result));
     }
+
+    private static int[] solution(int[] oldChess) {
+        int[] answer = new int[6];
+
+        for (int i = 0; i < 6; i++) {
+            answer[i] = CHESS[i] - oldChess[i];
+        }
+
+        return answer;
+    }
+
 }
