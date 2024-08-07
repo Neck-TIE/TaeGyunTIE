@@ -3,7 +3,7 @@ package com.tie.solved.새싹.수학;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class B5_1008 {
+public class ADivideB_1008 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
