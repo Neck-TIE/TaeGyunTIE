@@ -21,7 +21,9 @@ public class 체스_3003 {
 
         int[] result = solution(oldChess);
 
-        System.out.println(Arrays.toString(result));
+        for (int n : result) {
+            System.out.print(n + " ");
+        }
     }
 
     private static int[] solution(int[] oldChess) {
