@@ -1,6 +1,6 @@
 package com.tie.solved.Bronze5.출력;
 
-public class B5_2393 {
+public class Rook_2393 {
 
     public static void main(String[] args) {
         System.out.println("  ___  ___  ___");
