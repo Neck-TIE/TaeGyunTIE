@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class B5_10699 {
+public class 오늘날짜_10699 {
 
     public static void main(String[] args) throws IOException {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
