@@ -1,6 +1,6 @@
 package com.tie.solved.새싹.출력;
 
-public class B5_25083 {
+public class 새싹_25083 {
 
     public static void main(String[] args) {
         System.out.println("         ,r'\"7");
