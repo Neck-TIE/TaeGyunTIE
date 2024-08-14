@@ -1,4 +1,4 @@
-package com.tie.solved.새싹;
+package com.tie.solved.새싹.구현;
 
 public class 등록_7287 {
 
