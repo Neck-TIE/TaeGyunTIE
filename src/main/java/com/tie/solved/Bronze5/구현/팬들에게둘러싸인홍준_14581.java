@@ -3,7 +3,6 @@ package com.tie.solved.Bronze5.구현;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.nio.Buffer;
 
 public class 팬들에게둘러싸인홍준_14581 {
 
