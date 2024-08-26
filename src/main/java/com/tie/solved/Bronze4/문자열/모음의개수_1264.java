@@ -6,10 +6,11 @@ import java.io.InputStreamReader;
 
 public class 모음의개수_1264 {
 
-    public static final char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+    public static final char[] VOWELS = {'a', 'e', 'i', 'o', 'u'};
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         while (true) {
             String str = br.readLine().toLowerCase();
 
@@ -26,11 +27,10 @@ public class 모음의개수_1264 {
     private static int solution(String str) {
         int answer = 0;
         char[] chars = str.toCharArray();
-        int length = chars.length;
 
-        for (int i = 0; i < length; i++) {
-            for (char vowel : vowels) {
-                if (chars[i] == vowel) {
+        for (char c : chars) {
+            for (char vowel : VOWELS) {
+                if (c == vowel) {
                     answer++;
                 }
             }
