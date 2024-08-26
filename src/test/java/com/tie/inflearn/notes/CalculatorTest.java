@@ -1,4 +1,4 @@
-package tie.inflearn.notes;
+package com.tie.inflearn.notes;
 
 import com.tie.inflearn.notes.Calculator;
 import com.tie.inflearn.notes.InvalidOperatorException;
