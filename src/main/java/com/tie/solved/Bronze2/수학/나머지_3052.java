@@ -12,23 +12,12 @@ public class 나머지_3052 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int[] numbers = new int[10];
+        Set<Integer> numbers = new HashSet<>();
         for (int i = 0; i < 10; i++) {
-            numbers[i] = Integer.parseInt(br.readLine());
+            numbers.add(Integer.parseInt(br.readLine()) % VALUE);
         }
 
-        int result = solution(numbers);
-        System.out.println(result);
-    }
-
-    private static int solution(int[] numbers) {
-        Set<Integer> set = new HashSet<>();
-        for(int num : numbers) {
-            int remain = num % 42;
-            set.add(remain);
-        }
-
-        return set.size();
+        System.out.println(numbers.size());
     }
 
 }
