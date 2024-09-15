@@ -7,7 +7,7 @@ public class 재귀함수_스택프레임 {
     }
 
     public static void dfs(int n) {
-        if (n ==0) {
+        if (n == 0) {
             return;
         } else {
             dfs(n - 1);
