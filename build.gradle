@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'org.springframework.boot' version '3.2.4'
+    id 'org.springframework.boot' version '2.7.7'
     id 'io.spring.dependency-management' version '1.1.4'
 }
 
@@ -16,10 +16,19 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web:3.2.4'
+    // Spring Boot
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 
-    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:3.2.4'
+    // Lombok
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    // h2
+    runtimeOnly 'com.h2database:h2'
+
+    // test
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 test {

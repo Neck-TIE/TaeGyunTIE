@@ -1,7 +1,5 @@
 package com.tie.inflearn.notes;
 
-import com.tie.inflearn.notes.Calculator;
-import com.tie.inflearn.notes.InvalidOperatorException;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
