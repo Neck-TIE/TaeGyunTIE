@@ -1,6 +1,7 @@
 package com.tie.practical_testing.spring.api.service.order;
 
 import com.tie.practical_testing.spring.api.controller.order.request.OrderCreateRequest;
+import com.tie.practical_testing.spring.api.service.order.request.OrderCreateServiceRequest;
 import com.tie.practical_testing.spring.api.service.order.response.OrderResponse;
 import com.tie.practical_testing.spring.domain.order.Order;
 import com.tie.practical_testing.spring.domain.order.OrderRepository;
@@ -32,7 +33,7 @@ public class OrderService {
      * 재고 감소 -> 동시성 고민
      * optimisitc lock / perssimitic lock / ...
      */
-    public OrderResponse createOrder(OrderCreateRequest request, LocalDateTime registeredDateTime) {
+    public OrderResponse createOrder(OrderCreateServiceRequest request, LocalDateTime registeredDateTime) {
         List<String> productNumbers = request.getProductNumbers();
         List<Product> products = findProductsBy(productNumbers);
 
