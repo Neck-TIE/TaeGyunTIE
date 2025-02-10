@@ -1,4 +1,4 @@
-package com.tie.solved.Bronze5.수학;
+package com.tie.solved.구현.새싹;
 
 import java.io.BufferedReader;
 import java.io.IOException;
