@@ -14,13 +14,16 @@ public class ClassStart3 {
         // 객체를 생성하면 자바는 메모리 어딘가에 이 객체에 접근할 수 있는 참조값(주소)을 반환 -> 주소 == x001
         // new 키워드를 통해 객체가 생성되고 참조값을 반환 -> 선언한 변수인 Student student1 에 생성된 객체의 참조값(x001)을 보관함
         // student1 변수는 메모리에 존재하는 실제 Student 객체(인스턴스)의 참조값을 가지고 있음
-        student1.name = "학생1";
+
+        student1.name = "학생1"; // 1. student1 객체의 name 멤버 변수에 값 대입
+        // x001.name = "학생1";  // 2. 변수에 있는 참조값을 통해 실제 객체에 접근, 해당 객체의 name 멤버 변수에 값 대입
+
         student1.age = 15;
         student1.grade = 90;
 
         Student student2 = new Student();
-        // Student student1 = x002;
-        // student1 = x002;
+        // Student student2 = x002;
+        // student2 = x002;
 
         student2.name = "학생2";
         student2.age = 16;
@@ -31,6 +34,13 @@ public class ClassStart3 {
 
         System.out.println("이름:" + student1.name + " 나이:" + student1.age + " 성적:" + student1.grade);
         System.out.println("이름:" + student2.name + " 나이:" + student2.age + " 성적:" + student2.grade);
+
+        // 1. 객체 값 읽기
+        // System.out.println("이름:" + student1.name);
+        // 2. 변수에 있는 참조값을 통해 실제 객체에 접근하고, name 멤버 변수에 접근
+        // System.out.println("이름:" + x001.name);
+        // 3. 객체의 멤버 변수의 값을 읽어옴
+        // System.out.println("이름:" + "학생1");
     }
 
     // 클래스와 사용자 정의타입
