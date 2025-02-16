@@ -1,5 +1,3 @@
-package 김영한의자바입문_코드로시작하는자바첫걸음;
-
 public class HelloJava2 {
 
     // 프로그램은 main()을 시작으로 위에서 아래로 한 줄씩 실행
