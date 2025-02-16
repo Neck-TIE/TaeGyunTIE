@@ -1,4 +1,4 @@
-package com.tie.김영한의자바입문_코드로시작하는자바첫걸음;
+package 김영한의자바입문_코드로시작하는자바첫걸음;
 
 public class HelloJava2 {
 
