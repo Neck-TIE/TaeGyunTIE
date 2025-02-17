@@ -1,4 +1,4 @@
-package com.tie.inflearn.java_introduce.variable;
+package variable;
 
 public class Var5 {
 
