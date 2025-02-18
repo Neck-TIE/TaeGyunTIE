@@ -1,4 +1,4 @@
-package com.tie.inflearn.java_introduce.operator;
+package operator;
 
 public class Operator1 {
 
