@@ -1,4 +1,4 @@
-package com.tie.inflearn.java_introduce.operator.ex;
+package operator.ex;
 
 public class OperationEx2 {
 
