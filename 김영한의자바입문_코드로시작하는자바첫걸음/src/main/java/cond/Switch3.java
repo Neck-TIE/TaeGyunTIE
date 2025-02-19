@@ -1,4 +1,4 @@
-package com.tie.inflearn.java_introduce.cond;
+package cond;
 
 public class Switch3 {
 
@@ -19,7 +19,6 @@ public class Switch3 {
                 coupon = 500;
                 break;
         }
-
         System.out.println("발급받은 쿠폰 : " + coupon);
     }
 
