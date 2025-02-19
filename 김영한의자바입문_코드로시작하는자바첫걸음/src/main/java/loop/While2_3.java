@@ -1,4 +1,4 @@
-package com.tie.inflearn.java_introduce.loop;
+package loop;
 
 public class While2_3 {
 
@@ -7,10 +7,10 @@ public class While2_3 {
         int i = 1;
         int endNum = 3;
 
+        // i=1, endNum=3
         while (i <= endNum) {
             sum = sum + i;
             System.out.println("i = " + i + " sum = " + sum);
-
             i++;
         }
     }
