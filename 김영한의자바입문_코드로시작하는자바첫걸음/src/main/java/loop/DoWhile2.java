@@ -1,4 +1,4 @@
-package com.tie.inflearn.java_introduce.loop;
+package loop;
 
 public class DoWhile2 {
 
