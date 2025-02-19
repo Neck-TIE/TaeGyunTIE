@@ -1,4 +1,4 @@
-package com.tie.inflearn.java_introduce.cond;
+package cond;
 
 public class CondOp2 {
 
