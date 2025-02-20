@@ -1,4 +1,4 @@
-package com.tie.inflearn.java_introduce.loop.ex;
+package loop.ex;
 
 public class WhileEx2 {
 
