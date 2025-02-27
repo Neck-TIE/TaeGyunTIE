@@ -1,4 +1,4 @@
-package com.tie.inflearn.java_introduce.scanner.ex;
+package scanner.ex;
 
 public class ChangeVarEx {
 
