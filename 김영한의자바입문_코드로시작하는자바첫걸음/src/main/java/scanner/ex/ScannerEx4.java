@@ -1,4 +1,4 @@
-package com.tie.inflearn.java_introduce.scanner.ex;
+package scanner.ex;
 
 import java.util.Scanner;
 
@@ -14,7 +14,6 @@ public class ScannerEx4 {
         for (int i = 1; i <= 9; i++) {
             System.out.println(n + " * " + i + " = " + n * i);
         }
-
     }
 
 }
