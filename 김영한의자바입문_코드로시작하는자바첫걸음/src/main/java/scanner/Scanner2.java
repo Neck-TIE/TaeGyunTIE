@@ -1,4 +1,4 @@
-package com.tie.inflearn.java_introduce.scanner;
+package scanner;
 
 public class Scanner2 {
 
