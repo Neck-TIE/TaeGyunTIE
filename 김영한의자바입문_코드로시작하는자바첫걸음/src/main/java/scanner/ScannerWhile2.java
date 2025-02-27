@@ -1,4 +1,4 @@
-package com.tie.inflearn.java_introduce.scanner;
+package scanner;
 
 import java.util.Scanner;
 
